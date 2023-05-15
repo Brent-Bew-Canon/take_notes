@@ -1,9 +1,9 @@
-// const notes = require('express').Router();
+const notes = require("express").Router()
+const path = require('path');
 
-// // GET Route for retrieving all the feedback
-// notes.get('/', (req, res) =>
-//     readFromFile('./db/feedback.json').then((data) => res.json(JSON.parse(data)))
-// );
+// TODO: serve proper page
+notes.get("/", function (req, res) {
+    res.json(`${req.method} request received`);
+})
 
-
-// module.exports = notes;
+module.exports = notes;
