@@ -9,6 +9,7 @@
 5. [Contributing](#contributing)
 6. [Testing Instructions](#testing-instructions)
 7. [Screenshot](#screenshot)
+8. [Live Link](#live-link)
 
 ## Description
 This application allows a user, such as a small business owner, to write and save notes.
@@ -32,6 +33,9 @@ N/A
 
 ## Screenshot
 ![Note Taker Screenshot](public/assets/note.png)
+
+## Live Link
+https://take-notes-bb.herokuapp.com/
 
 
 
