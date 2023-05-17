@@ -4,7 +4,7 @@ const path = require("path")
 
 routes.use("/api", notes)
 
-routes.get("notes", function (req, res) {
+routes.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/notes.html"))
 })
 

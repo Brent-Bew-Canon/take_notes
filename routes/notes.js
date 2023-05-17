@@ -4,9 +4,9 @@ const fs = require('fs');
 const uuid = require('../helpers/uuid');
 
 // Gets the notes from the db file
-notes.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, '../db/db.json'))
-})
+// notes.get("/notes", function (req, res) {
+//     res.sendFile(path.join(__dirname, '../db/db.json'))
+// })
 
 //creates a note in the db file
 notes.post("/notes", function (req, res) {
